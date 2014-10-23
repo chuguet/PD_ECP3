@@ -1,8 +1,8 @@
 package models.DAO.mem;
 
-import models.DAO.IGenericDAO;
+import models.DAO.IUserDAO;
 import models.entities.User;
 
-public class MemUserDAO extends MemGenericDAO<User, Integer> implements IGenericDAO<User, Integer> {
+public class MemUserDAO extends MemGenericDAO<User, Integer> implements IUserDAO {
 
 }
